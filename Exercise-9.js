@@ -9,7 +9,7 @@
 	yang kemudian akan ditampilkan di console.
 */
 
-function shoutOut(){
+function shoutOut() {
 	return "Halo Function!";
 }
 
@@ -22,7 +22,7 @@ console.log(shoutOut());
 	dari dua parameter yang dikirim.
 */
 
-function calculateMultiply(numFirst, numSecond){
+function calculateMultiply(numFirst, numSecond) {
 	return numFirst * numSecond;
 }
 
@@ -40,11 +40,11 @@ console.log(hasilPerkalian);
 	[Address], dan saya punya hobby yaitu [hobby]!"
 */
 
-function processSentence(nama, umur, alamat, hobi){
-	return "Nama saya "+nama+", umur saya "+umur+" tahun, alamat saya di "+alamat+", dan saya punya hobby yaitu "+hobi+"!";
+function processSentence(nama, umur, alamat, hobi) {
+	return "Nama saya " + nama + ", umur saya " + umur + " tahun, alamat saya di " + alamat + ", dan saya punya hobby yaitu " + hobi + "!";
 }
 
-var name="Agus";
+var name = "Agus";
 var age = 30;
 var address = "Jln. Malioboro, Yogyakarta";
 var hobby = "gaming";

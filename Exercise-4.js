@@ -18,13 +18,13 @@ var bulan = "5"; // assign nilai variabel bulan disini! (dengan angka antara 1 -
 var tahun = "1945"; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 var namaBulan;
 
-if (tanggal < 1 || tanggal > 31){
+if (tanggal < 1 || tanggal > 31) {
     console.log("Format penulisan tanggal salah");
-} else if (bulan < 1 || bulan > 12){
+} else if (bulan < 1 || bulan > 12) {
     console.log("Format penulisan bulan salah!");
-} else if (tahun < 1900 || tahun > 2200){
+} else if (tahun < 1900 || tahun > 2200) {
     console.log("Format penulisan tahun salah!");
-}else{
+} else {
     switch (bulan) {
         case "1":
             namaBulan = "Januari";
@@ -63,7 +63,7 @@ if (tanggal < 1 || tanggal > 31){
             namaBulan = "Desember";
             break;
     }
-    
+
     if (namaBulan) {
         console.log(tanggal + " " + namaBulan + " " + tahun);
     }
